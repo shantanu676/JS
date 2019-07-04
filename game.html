@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="game-style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
+	<title>Pig Game</title>
+</head>
+<body>
+	<div id="container">	
+		<div>
+			<img src="plus.png" id="plus">
+			<h3 id="new">NEW GAME</h3>
+		</div>
+		<div>
+			<img src="1.png" id="dice">
+		</div>
+		<span>
+			<div>
+				<div id="winner-one">WINNER!</div>
+				<div>
+					<img src="circle.png" id="circle-one">
+					<h1 id="player-heading-one">PLAYER 1</h1>
+				</div>
+				<div>
+					<p id="current-score-one">0</p>
+				</div>
+				<div id="total-score-one">
+					<center><h5>SCORE</h5></center>
+					<center><h5 id="score-one">00</h5></center>
+				</div>
+			</div>
+		</span>
+		<span>
+			<div>
+				<div id="winner-two">WINNER!</div>
+				<div>
+					<img src="circle.png" id="circle-two">
+					<h1 id="player-heading-two">PLAYER 2</h1>
+				</div>
+				<div>
+					<p id="current-score-two">0</p>
+				</div>
+				<div id="total-score-two">
+					<center><h5>SCORE</h5></center>
+					<center><h5 id="score-two">00</h5></center>
+				</div>
+			</div>
+		</span>
+		<div>
+			<img src="round.png" id="round">
+			<h3 id="roll">ROLL</h3>
+		</div>
+		<div>
+			<img src="hold.png" id="hold">
+			<h3 id="stay">HOLD</h3>
+		</div>
+	</div>
+	<script src="game-script.js"></script>
+</body>
+</html>
